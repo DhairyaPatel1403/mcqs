@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=DM+Sans:wght@500&family=IBM+Plex+Sans:wght@300&family=Josefin+Sans:wght@300&family=Kanit:wght@200&family=Montserrat:wght@200&family=Nunito:wght@300&family=Ubuntu:wght@400;500&display=swap');
+
+
+.box {
+    width: 80%;
+    background-color: rgba(204, 204, 204, 0.164); 
+    color: black;
+    height: 50vh;
+    border-radius: 10px; 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 8, 8, 0.39); /* Adjust the values as needed */
+}
+
+
+
+.que{
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    overflow: scroll;
+    color:white;
+}
+
+
+.opt{
+    width: 70%;
+    overflow: scroll;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    background-color: goldenrod;
+}
+.opt:hover{
+    background-color: rgb(136, 106, 30);
+    font-weight: 900;
+}
+.options{
+    display: grid;
+    align-items: center;
+    place-items: center;    
+}
+
+.sub{
+    padding: 20px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    background-color: rgb(47, 47, 116);
+    border: none;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}
+
+.score{
+    width: 80%;
+    background-color: rgb(175, 185, 28);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    padding: 10%;
+    color: black;
+    font-weight: 800;
+}
+.compl{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(70, 69, 69);
+}
+
+.welcome{
+    padding: 20px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    background-color: rgb(197, 186, 35);
+    border: none;
+    border-radius: 5px;
+    color:black;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(226, 231, 231, 0.692);
+}
